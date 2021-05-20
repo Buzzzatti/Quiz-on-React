@@ -2,33 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afb83019-4590-4a8d-8bb1-0681b1cd2dbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/getHttpsConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/babelTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/ActiveQuiz.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/ActiveQuiz.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/AswersList/AnswerItem/AnswerItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/AswersList/AnswerItem/AnswerItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/AswersList/AnswersList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/AswersList/AnswersList.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Quiz/Quiz.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Quiz/Quiz.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ActiveQuiz/ActiveQuiz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/ActiveQuiz.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ActiveQuiz/AswersList/AnswerItem/AnswerItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/AswersList/AnswerItem/AnswerItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ActiveQuiz/AswersList/AnswerItem/AnswerItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/AswersList/AnswerItem/AnswerItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ActiveQuiz/AswersList/AnswersList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/AswersList/AnswersList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Quiz/Quiz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Quiz/Quiz.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621279770661</updated>
-      <workItem from="1621279772597" duration="12272000" />
+      <workItem from="1621279772597" duration="15331000" />
     </task>
     <servers />
   </component>
