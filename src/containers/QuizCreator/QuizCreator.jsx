@@ -76,8 +76,8 @@ export default class QuizCreator extends Component {
         event.preventDefault()
 
         try {
-            await axios.post('quizes.json', this.state.quiz)
-
+            await axios.post('https://react-quiz-f644e-default-rtdb.firebaseio.com/quiz.json', this.state.quiz)
+            
             this.setState({
                 quiz: [],
                 isFormValid: false,
@@ -88,8 +88,6 @@ export default class QuizCreator extends Component {
         } catch (e) {
             console.log(e)
         }
-
-
     }
 
     changeHandler = (value, controlName) => {

@@ -1,5 +1,5 @@
 import axios from 'axios'
 
 export default axios.create({
-    baseURL:'https://react-quiz-b7f38-default-rtdb.firebaseio.com/'
+    baseURL:'https://react-quiz-f644e-default-rtdb.firebaseio.com/'
 })

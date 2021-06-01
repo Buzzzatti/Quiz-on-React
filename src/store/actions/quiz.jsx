@@ -5,15 +5,15 @@ export function fetchQuizes () {
     return async dispatch => {
         dispatch(fetchQuizesStart())
         try {
-            const response = await axios.get('quizes.json')
-            const quizes = []
+            const response = await axios.get('quiz.json')
+            const quiz = []
             Object.keys(response.data).forEach((key, index) => {
-                quizes.push({
+                quiz.push({
                     id: key,
                     name: `Тест №${index + 1}`
                 })
             })
-            dispatch(fetchQuizesSuccess(quizes))
+            dispatch(fetchQuizesSuccess(quiz))
         } catch (e) {
             dispatch(fetchQuizesError(e))
         }
@@ -27,10 +27,10 @@ export function fetchQuizesStart() {
     }
 }
 
-export function fetchQuizesSuccess(quizes) {
+export function fetchQuizesSuccess(quiz) {
     return {
         type: FETCH_QUIZES_SUCCESS,
-        quizes
+        quiz
     }
 }
 

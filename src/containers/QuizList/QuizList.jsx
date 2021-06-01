@@ -4,12 +4,18 @@ import {NavLink} from "react-router-dom";
 import Loader from "../../components/UI/Loader/Loader";
 import {connect} from "react-redux";
 import {fetchQuizes}  from '../../store/actions/quiz';
+import axios from '../../Axios/axios-quiz';
 
 
- class QuizList extends Component {
+class QuizList extends Component {
+
+    state = {
+        quiz: [],
+        loading: true
+    }
 
     renderQuizes() {
-        return this.props.quizes.map((quiz) => {
+        return this.state.quiz.map(quiz => {
             return(
                 <li
                     key={quiz.id}
@@ -22,29 +28,27 @@ import {fetchQuizes}  from '../../store/actions/quiz';
         })
     }
 
-    componentDidMount() {
-        this.props.fetchQuizes()
-        // try{
-        //     const response = await axios.get('quizes.json')
-        //     const quizes = []
-        //     Object.keys(response.data).forEach((key, index) => {
-        //         quizes.push({
-        //             id:key,
-        //             name:`Тест №${index + 1}`
-        //         })
-        //     })
-        //     this.setState({
-        //         quizes:quizes,
-        //         loading:false
-        //     })
-        // } catch (e) {
+    async componentDidMount() {
+        try{
+            const response = await axios.get('/quiz.json')
 
+            const quiz = []
+            Object.keys(response.data).forEach((key, index) => {
+                quiz.push({
+                    id: key,
+                    name: `Тест № ${index + 1}`
+                })
+            })
+            this.setState({
+                quiz,
+                loading: false
+            })
+        } catch(e){
+            console.log(e)
         }
+        
+    }
 
-        // axios.get('https://react-quiz-b7f38-default-rtdb.firebaseio.com/quiz.json').then(response => {
-        //     console.log(response)
-        // })
-        // }
 
     render() {
         return(
@@ -52,13 +56,12 @@ import {fetchQuizes}  from '../../store/actions/quiz';
                 <div>
                     <h1>Список тестов</h1>
                     {
-                        this.props.loading && this.props.quizes.length !== 0
+                        this.state.loading 
                         ? <Loader/>
                         : <ul>
                                 { this.renderQuizes() }
-                        </ul>
+                          </ul>
                     }
-
                 </div>
             </div>
         )
@@ -67,7 +70,7 @@ import {fetchQuizes}  from '../../store/actions/quiz';
 
 function mapStateToProps(state) {
     return{
-        quizes: state.quiz.quizes,
+        quiz: state.quiz.quiz,
         loading: state.quiz.loading
     }
 }
