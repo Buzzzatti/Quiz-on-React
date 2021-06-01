@@ -2,16 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afb83019-4590-4a8d-8bb1-0681b1cd2dbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/containers/Auth/Auth.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/QuizCreator/QuizCreator.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/QuizList/QuizList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/QuizList/QuizList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Axios/axios-quiz.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/formFramework.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Loader/Loader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Loader/Loader.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Select/Select.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Select/Select.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Auth/Auth.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/QuizCreator/QuizCreator.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Auxillary/Auxillary.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/actionTypes.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/quiz.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/quiz.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/rootReducer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FinishedQuiz/FinishedQuiz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FinishedQuiz/FinishedQuiz.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Auth/Auth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Auth/Auth.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Quiz/Quiz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Quiz/Quiz.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/QuizCreator/QuizCreator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/QuizCreator/QuizCreator.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/QuizList/QuizList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/QuizList/QuizList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -29,8 +40,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
@@ -71,7 +85,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621279770661</updated>
-      <workItem from="1621279772597" duration="29091000" />
+      <workItem from="1621279772597" duration="51882000" />
+      <workItem from="1621797754142" duration="211000" />
+      <workItem from="1621971464594" duration="2754000" />
     </task>
     <servers />
   </component>
@@ -83,7 +99,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -94,8 +112,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/index.js</url>
-          <line>14</line>
-          <properties lambdaOrdinal="-1" />
+          <line>33</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
